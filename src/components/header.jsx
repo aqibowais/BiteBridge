@@ -8,7 +8,7 @@ export const Header = () => {
   };
 
   return (
-    <div className="ring-black ring-1 flex justify-between items-center mx-2 p-4 sm:p-6 cursor-pointer">
+    <div className=" flex justify-between items-center mx-2 p-4 sm:p-6 cursor-pointer">
       <div className='flex items-center'>
         <img className="w-10" src='./assets/pizza.png'></img>
         <h1 className='font-bold text-xl text-[#da3c33] tracking-wide'>BiteBridge</h1>
