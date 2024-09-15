@@ -8,9 +8,12 @@ export const Header = () => {
   };
 
   return (
-    <div className="flex justify-between items-center mx-6 p-4 sm:p-8">
-      <h1 className="font-bold text-3xl">🍕</h1>
-      <ul className="hidden sm:flex sm:gap-4 text-[#191720] font-semibold">
+    <div className="flex justify-between items-center mx-2 p-4 sm:p-6 cursor-pointer">
+      <div className='flex items-center'>
+        <img className="w-10" src='./assets/pizza.png'></img>
+        <h1 className='font-bold text-xl text-[#da3c33] tracking-wide'>BiteBridge</h1>
+      </div>
+      <ul className="hidden sm:flex sm:gap-3 text-[#191720] font-bold">
         <li>Restaurants</li>
         <li>Recipes</li>
         <li>About</li>

@@ -9,7 +9,7 @@ export const InputBox = ({ data }) => {
         type="text"
         placeholder={placeholder}
       />
-      <div className="w-[120px] flex h-full justify-center items-center bg-[#E94339] font-bold tracking-wide text-white rounded-full">
+      <div className="w-[120px] flex h-full justify-center items-center bg-[#E94339] hover:bg-[#c93830] cursor-pointer text-xs sm:text-sm font-bold tracking-wide text-white rounded-full">
         {buttonText}
       </div>
     </div>

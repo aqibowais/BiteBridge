@@ -2,7 +2,7 @@
 export const PlayStoreButton = ({data}) => {
   const {title, icon} = data
   return (
-    <div className="w-44 h-auto flex justify-center items-center gap-3 p-1 my-3 bg-[#F4F4F4] rounded-lg">
+    <div className="w-52 h-auto flex justify-center items-center gap-3 p-2 my-3 bg-[#F4F4F4] rounded-lg">
         <div className="text-2xl">
         {icon}
         </div>

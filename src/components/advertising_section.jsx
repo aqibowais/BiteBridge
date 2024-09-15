@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from './card'
 import { DeliveryCard } from './delivery_card'
+import { Quotes } from './quotes'
 
 export const AdvertisingSection = () => {
   return (
@@ -16,6 +17,15 @@ export const AdvertisingSection = () => {
           <Card data = {{icon:"./assets/burger.png",title:"Burger"}}/>
           <Card data = {{icon:"./assets/sushi.png",title:"Sushi"}}/> 
           <DeliveryCard/>
+        </div>
+        <div className="w-full px-10 flex justify-center items-center flex-wrap">
+          <Quotes/>
+          <div className='flex justify-center items-center gap-10 flex-wrap flex-row mx-auto my-8'>
+            <Card data = {{icon:"./assets/pasta.png",title:"Pasta"}}/>
+            <Card data = {{icon:"./assets/burger.png",title:"Burger"}}/>
+            <Card data = {{icon:"./assets/desert.png",title:"Desert"}}/> 
+
+          </div>
         </div>
     </div>
   )

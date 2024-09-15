@@ -2,8 +2,10 @@ import React from "react";
 import { Header } from "../../components/header";
 import { Hero } from "../../components/hero";
 import { AdvertisingSection } from "../../components/advertising_section";
-import { Quotes } from "../../components/quotes";
 import { Services } from "../../components/services";
+import { ClientFeedback } from "../../components/client_feedback";
+import { SubscribeNewsLetter } from "../../components/subscribe_newsletter";
+import { Footer } from "../../components/footer";
 
 export const Home = () => {
   return (
@@ -11,8 +13,10 @@ export const Home = () => {
       <Header />
       <Hero />
       <AdvertisingSection/>
-      <Quotes/>
       <Services/>
+      <ClientFeedback/>
+      <SubscribeNewsLetter/>
+      <Footer/>
     </div>
   );
 };
