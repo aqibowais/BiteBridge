@@ -6,7 +6,7 @@ import { FaApple,FaGooglePlay } from "react-icons/fa";
 export const Hero = () => {
   return (
   
-    <div className="block items-center p-5 h-auto w-full md:p-10 md:flex md:justify-around md:items-start">
+    <div className="ring-black ring-1  block items-center p-5 h-auto w-full md:p-10 md:flex md:justify-around md:items-start">
       {/* Content seciton */}
       <div className="h-auto w-4/5 mx-auto md:w-[50%]">
         <p className="font-semibold text-center text-3xl md:text-5xl md:text-start tracking-wide">
@@ -31,7 +31,7 @@ export const Hero = () => {
       </div>
       {/* Image Section */}
       <div className="bg-[#F2EBDA] rounded-xl md:w-[40%]">
-        <div className="items-center w-full h-full">
+        <div className="items-center">
           <img src="./assets/deliveryboy.png" alt="" />
         </div>
       </div>
