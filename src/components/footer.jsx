@@ -5,7 +5,7 @@ import { FooterDetails } from './footer_details';
 
 export const Footer = () => {
     return (
-        <div className="w-full flex flex-wrap justify-around sm:flex mt-20 bg-black p-5">
+        <div className="w-full flex flex-wrap justify-around sm:flex bg-black p-5">
             <div className=''>
                 <div className='flex items-center justify-center sm:justify-start'>
                     <img className="w-10" src='./assets/pizza.png' alt="logo" />
